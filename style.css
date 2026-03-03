@@ -1,0 +1,25 @@
+/* Custom overrides & tambahan */
+body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #e0f2fe, #dbeafe);
+  }
+  
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12) !important;
+  }
+  
+  .navbar-brand {
+    font-size: 1.6rem;
+  }
+  
+  .display-4 {
+    font-weight: 700;
+  }
